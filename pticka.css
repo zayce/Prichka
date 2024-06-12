@@ -1,1 +1,563 @@
-/*# sourceMappingURL=pticka.css.map */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "RM";
+  src: url("fonts/Raleway-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.site-wrapper {
+  background-color: #f4f6f5;
+}
+
+.site-header-nav-menu {
+  width: 1110px;
+  font-size: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.site-header-nav {
+  padding: 33px 165px;
+  background-color: #e1ede6;
+}
+
+.site-header-menu {
+  font-family: "RM";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+.header-menu {
+  list-style: none;
+  margin-right: 58px;
+}
+
+.header-menu:last-child {
+  margin-right: 0;
+}
+
+.site-header-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #2c2d35;
+}
+
+.site-header-items {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.site-header-items::after {
+  content: "";
+  background: url(img/Layer\ 0\ 1.png) no-repeat;
+  background-position: 0 0;
+  width: 540px;
+  margin-right: 30px;
+}
+
+.site-header-item-right {
+  width: 540px;
+  padding: 145px 0;
+}
+
+span {
+  color: #598d66;
+}
+
+.site-header-item-right-title {
+  font-family: "RM";
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.site-header-item-right-description {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+  margin-bottom: 50px;
+}
+
+.site-header-item-right-button {
+  font-family: "RM";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0;
+  border: 1px solid #598d66;
+  color: #598d66;
+  background-color: #f4f6f5;
+  padding: 21px 60px;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+.site-header-item-right-button:hover {
+  background-color: #376b44;
+  color: #f4f6f5;
+}
+
+.site-reproductions {
+  background-color: #f4f6f5;
+  padding: 70px 0;
+}
+
+.reproductions-items {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.reproductions-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.reproductions-word {
+  font-family: "RM";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.reproductions-countries {
+  width: 428px;
+  display: flex;
+  justify-content: space-between;
+}
+.reproductions-countries .countries {
+  padding: 0;
+  border: none;
+  color: #2c2d35;
+  background-color: transparent;
+  margin-right: 27px;
+  font-family: "RM";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #d4e8d9;
+  transition-property: all;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.reproductions-countries .countries:last-child {
+  margin-right: 0;
+}
+.reproductions-countries .countries:hover {
+  background-color: #376b44;
+  color: #f4f6f5;
+}
+
+.reproductions-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.reproductions-item .item {
+  width: 350px;
+  background-color: #e1ede6;
+  padding: 20px 20px 30px;
+  margin-bottom: 30px;
+}
+.reproductions-item .item-bottom-none {
+  margin-bottom: 0;
+}
+.reproductions-item img {
+  margin-bottom: 20px;
+}
+.reproductions-item .item-artist {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+  margin-bottom: 10px;
+}
+.reproductions-item .item-name {
+  font-family: "RM";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 8px;
+  color: #2c2d35;
+}
+.reproductions-item .item-size {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2d35;
+  margin-bottom: 30px;
+}
+.reproductions-item .item-price {
+  font-family: "RM";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #598d66;
+  margin-bottom: 20px;
+}
+.reproductions-item .item-button {
+  width: 310px;
+  display: flex;
+  justify-content: center;
+  color: #598d66;
+  background-color: transparent;
+  font-family: "RM";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 1px solid #598d66;
+  padding: 21px 0;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+.reproductions-item .item-button:hover {
+  background-color: #376b44;
+  color: #f4f6f5;
+}
+
+.site-new-collection-bcg {
+  background: url(img/pic_background.png) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0;
+}
+.site-new-collection-bcg .new-collection-text {
+  width: 1110px;
+  margin: 0 auto;
+}
+.site-new-collection-bcg .new-collection-title {
+  width: 521px;
+  background: url(img/Star\ 2.svg) 0 0 no-repeat;
+  padding-left: 100px;
+  font-family: "RM";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f6f5;
+  margin-bottom: 20px;
+}
+.site-new-collection-bcg .new-collection-decription {
+  width: 560px;
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f6f5;
+  margin-bottom: 20px;
+}
+.site-new-collection-bcg .new-collection-decription-2 {
+  width: 560px;
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f4f6f5;
+  margin-bottom: 60px;
+}
+.site-new-collection-bcg .collection-button {
+  width: 257px;
+  display: flex;
+  justify-content: center;
+  color: #2c2d35;
+  background-color: #eedb6d;
+  font-family: "RM";
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 21px 0;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+.site-new-collection-bcg .collection-button:hover {
+  background-color: #446100;
+  color: #f4f6f5;
+}
+
+.site-team {
+  background-color: #f4f6f5;
+}
+.site-team .site-team-block {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  padding: 70px 0;
+}
+.site-team .left-block {
+  margin-right: 30px;
+}
+.site-team .right-block {
+  padding-top: 124px;
+}
+.site-team .our-team {
+  font-family: "RM";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #2c2d35;
+}
+.site-team .our-team-description {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #2c2d35;
+}
+.site-team .our-team-menu {
+  list-style: none;
+}
+.site-team .our-team-img-3 {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer {
+  padding: 23px 0;
+  background-color: #e1ede6;
+}
+.site-footer .footer-left-block {
+  margin-right: 115px;
+}
+.site-footer .footer-grid {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+}
+.site-footer .footer-logo {
+  margin-bottom: 35px;
+}
+.site-footer .tel {
+  font-family: "RM";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2d35;
+}
+.site-footer .text {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}
+.site-footer .footer-menu {
+  width: 445px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 248px;
+}
+.site-footer .head {
+  margin-bottom: 6px;
+}
+.site-footer .font {
+  font-family: "RM";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2d35;
+}
+.site-footer .footer-france {
+  margin-bottom: 6px;
+}
+.site-footer .footer-france .france {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}
+.site-footer .footer-germany {
+  margin-bottom: 6px;
+}
+.site-footer .footer-germany .germany {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}
+.site-footer .footer-england .england {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}
+.site-footer .footer-new {
+  margin-bottom: 6px;
+}
+.site-footer .footer-new .new {
+  font-family: "RM";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2d35;
+}
+.site-footer .footer-2021 {
+  margin-bottom: 6px;
+}
+.site-footer .footer-2021 .year-2021 {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}
+.site-footer .year-2020 {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}
+.site-footer .about-us {
+  margin-bottom: 6px;
+}
+.site-footer .about-us .about-us-2 {
+  font-family: "RM";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2c2d35;
+}
+.site-footer .artist {
+  margin-bottom: 6px;
+}
+.site-footer .artist .artist-2 {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}
+.site-footer .manager-2 {
+  font-family: "RM";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}
+.site-footer .footer-soc-menu {
+  width: 132px;
+}
+.site-footer .footer-soc-menu .soc-media {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.site-footer .footer-soc-menu .soc-menu-text-1 {
+  font-family: "RM";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+  margin-bottom: 6px;
+}
+.site-footer .footer-soc-menu .soc-menu-text-2 {
+  font-family: "RM";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #86928b;
+}/*# sourceMappingURL=pticka.css.map */
